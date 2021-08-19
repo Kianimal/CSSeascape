@@ -1,0 +1,51 @@
+body{
+    height: 100vh;
+    margin: 0;
+}
+
+.main{
+    width: 100%;
+    height: 100%;
+    display: flex;
+}
+
+.mainContentWrap{
+    display: flex;
+    width: 50%;
+    height:50%;
+    margin: auto;
+}
+
+.artBox{
+    width: 100%;
+    height: 100%;
+    background: #e3e3e3;
+    border: 3px solid black;
+    position: relative;
+}
+
+.sky{
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(180deg, hotpink, aliceblue, transparent);
+}
+
+.sea{
+    width: 100%;
+    height: 50%;
+    display: flex;
+    position: absolute;
+    bottom: 0;
+    background-image: linear-gradient(179deg, transparent, aqua, skyblue);
+}
+
+.sand{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 90%;
+    height: 175px;
+    background-color: wheat;
+    clip-path: polygon(0% 100%, 8% 100%, 19% 100%, 30% 100%, 40% 100%, 56% 100%, 66% 82%, 75% 70%, 84% 59%, 93% 35%, 100% 0%, 100% 100%);
+    box-shadow: inset 900px 120px 100px 20px lightcoral;
+}
